@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41650" started-at="2020-10-02T13:11:02Z" finished-at="2020-10-02T13:11:44Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="28916" started-at="2020-10-02T13:11:02Z" finished-at="2020-10-02T13:11:31Z">
+      <class name="com.sauceDemo.TestScripts.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sauceDemo.TestScripts.LoginTest@366e2eef]" name="setup" is-config="true" duration-ms="19873" started-at="2020-10-02T13:11:02Z" finished-at="2020-10-02T13:11:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLockedOutUserLogin()[pri:1, instance:com.sauceDemo.TestScripts.LoginTest@366e2eef]" name="verifyLockedOutUserLogin" duration-ms="2152" started-at="2020-10-02T13:11:22Z" description="Verify user is unable to login with locked out user" finished-at="2020-10-02T13:11:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLockedOutUserLogin -->
+        <test-method status="PASS" signature="verifyLoginShouldFailWithoutPassword()[pri:2, instance:com.sauceDemo.TestScripts.LoginTest@366e2eef]" name="verifyLoginShouldFailWithoutPassword" duration-ms="290" started-at="2020-10-02T13:11:25Z" description="Verify user is unable to login when no pasword is given" finished-at="2020-10-02T13:11:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginShouldFailWithoutPassword -->
+        <test-method status="PASS" signature="verifyUnableToLoginWithInvalidCredentials()[pri:3, instance:com.sauceDemo.TestScripts.LoginTest@366e2eef]" name="verifyUnableToLoginWithInvalidCredentials" duration-ms="377" started-at="2020-10-02T13:11:25Z" description="Verify user is unable to login when username and password is invalid" finished-at="2020-10-02T13:11:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUnableToLoginWithInvalidCredentials -->
+        <test-method status="PASS" signature="vertifySuccessfullLogin()[pri:4, instance:com.sauceDemo.TestScripts.LoginTest@366e2eef]" name="vertifySuccessfullLogin" duration-ms="4828" started-at="2020-10-02T13:11:25Z" description="Verify user is able to log in with standard user" finished-at="2020-10-02T13:11:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vertifySuccessfullLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sauceDemo.TestScripts.LoginTest@366e2eef]" name="tearDown" is-config="true" duration-ms="1277" started-at="2020-10-02T13:11:30Z" finished-at="2020-10-02T13:11:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sauceDemo.TestScripts.LoginTest -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="12581" started-at="2020-10-02T13:11:31Z" finished-at="2020-10-02T13:11:44Z">
+      <class name="com.sauceDemo.TestScripts.ProductAddTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.sauceDemo.TestScripts.ProductAddTest@b97c004]" name="setup" is-config="true" duration-ms="6391" started-at="2020-10-02T13:11:31Z" finished-at="2020-10-02T13:11:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyUserCanSeeAddToCartOnProductDetail()[pri:1, instance:com.sauceDemo.TestScripts.ProductAddTest@b97c004]" name="verifyUserCanSeeAddToCartOnProductDetail" duration-ms="5312" started-at="2020-10-02T13:11:38Z" finished-at="2020-10-02T13:11:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanSeeAddToCartOnProductDetail -->
+        <test-method status="PASS" signature="verifyCorrectProductGetsAddedToCart()[pri:2, instance:com.sauceDemo.TestScripts.ProductAddTest@b97c004]" name="verifyCorrectProductGetsAddedToCart" duration-ms="60" started-at="2020-10-02T13:11:43Z" finished-at="2020-10-02T13:11:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectProductGetsAddedToCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sauceDemo.TestScripts.ProductAddTest@b97c004]" name="tearDown" is-config="true" duration-ms="815" started-at="2020-10-02T13:11:43Z" finished-at="2020-10-02T13:11:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sauceDemo.TestScripts.ProductAddTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

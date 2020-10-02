@@ -1,0 +1,4 @@
+com\sauceDemo\pages\BasePage.class
+com\sauceDemo\pages\ProductCatalogPage.class
+com\sauceDemo\pages\ProuctDetailPage.class
+com\sauceDemo\pages\LoginPage.class
