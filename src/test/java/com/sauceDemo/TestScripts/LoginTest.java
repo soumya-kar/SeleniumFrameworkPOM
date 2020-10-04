@@ -31,7 +31,7 @@ public class LoginTest extends TestBase {
 	@Test(priority=3,description= "Verify user is unable to login when username and password is invalid")
 	public void verifyUnableToLoginWithInvalidCredentials(){
 		loginPage.doLogin("Testuser", "12345");
-		Assert.assertTrue(loginPage.getErrorMsg().contains("Username and password do not match any user in this service111"), "Correct Error message is not displayed");
+		Assert.assertTrue(loginPage.getErrorMsg().contains("Username and password do not match any user in this service"), "Correct Error message is not displayed");
 	}
 	
 	
